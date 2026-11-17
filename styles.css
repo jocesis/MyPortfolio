@@ -155,13 +155,23 @@ body {
 }
 
 .project-item ul {
-  padding-left: 24px;
-  font-size: 1.3rem;
-  line-height: 1.45;
+    padding-left: 24px;
+    font-size: 1.05rem;
+    line-height: 1.6;
 }
 
 .project-item li {
   margin-bottom: 4px;
+}
+
+.project-item img {
+    width: 50%;
+    height: 240px;
+    object-fit: contain;
+    display: block;
+    background-color: #ffffff;
+    border-radius: 12px;
+    margin-bottom: 15px;
 }
 
 /* ABOUT PAGE: Single Column */
@@ -298,7 +308,8 @@ body {
 
 .form-group input:focus,
 .form-group textarea:focus {
-  outline: none;
+  outline: 3px solid #ffffff;
+  outline-offset: 2px;
   border-color: #16101c;
 }
 
